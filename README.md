@@ -1,27 +1,50 @@
-# Iss
+# ISS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+ISS is a Frontend application which will provide the realtime location of International Space Station. It is integrated with Google Maps and consumes a backend API which will point out the exact location of the ISS overhead.
 
-## Development server
+## Before You Begin
+Before you begin, I recommend you read about the basic building blocks of an Angular application:
+* Angular - Angular's [Official Website](https://angular.io/docs/) is a great starting point. You can kickstart with the official [tour of heroes](https://angular.io/tutorial/) guide.
+* Google Maps Javascript API - You need to create an API key to integrate application with Google maps. You can create your key [here](https://developers.google.com/maps/documentation/javascript/get-api-key).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Prerequisites
+Make sure you have installed all of the following prerequisites on your development machine:
+* Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
+* Visual Studio Code - I recommend using [VSC](https://code.visualstudio.com/download) to code this application further, But you can use any other Code editor of your choice.
+* Angular - Install [Angular](https://angular.io/cli), followed by [Material](https://material.angular.io/guide/getting-started)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+$ npm install -g @angular/cli
+```
 
-## Build
+```bash
+$ ng add @angular/material
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Quick Install
+Once you've downloaded the boilerplate and installed all the prerequisites, proceed to install the dependencies. Run this command in frontend application folder from the command-line:
 
-## Running unit tests
+```bash
+$ npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This command does a few things:
+* First it will install the dependencies required for the application to run.
+* To update these packages later on, just run `npm update`
 
-## Running end-to-end tests
+## Few Checks about API
+* If you are using an unpaid API, please expect a muddy map with watermark (For development purpose only).
+* You need to add API key in index.html file.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Running Your Application
 
-## Further help
+### Run your Angular server using npm:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```bash
+$ ng serve
+```
+Your frontend application should run on port 4200 with the environment configuration, so in your browser just go to [http://localhost:4200](http://localhost:4200)
+
+---
+THAT'S IT! YOUR APPLICATION SHOULD BE RUNNING NOW.
