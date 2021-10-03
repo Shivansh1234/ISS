@@ -34,7 +34,7 @@ This command does a few things:
 * To update these packages later on, just run `npm update`
 
 ## Few Checks about API
-* If you are using an unpaid API, please expect a muddy map with watermark (For development purpose only).
+* If you are using an unpaid API, please expect a muddy map with watermark (For development purposes only).
 * You need to add API key in index.html file.
 
 ## Running Your Application
